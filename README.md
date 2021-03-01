@@ -1,0 +1,1 @@
+# testcafe-multiple-configuration-example
