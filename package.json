@@ -1,0 +1,22 @@
+{
+  "name": "testcafe-multiple-configuration-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitry-Ostashev/testcafe-multiple-configuration-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dmitry-Ostashev/testcafe-multiple-configuration-example/issues"
+  },
+  "homepage": "https://github.com/Dmitry-Ostashev/testcafe-multiple-configuration-example#readme",
+  "devDependencies": {
+    "testcafe": "^1.11.0"
+  }
+}
