@@ -3,6 +3,7 @@ const config = {
     hostname:   'localhost',
     port1:      3005,
     port2:      3006,
+    browsers:   ['firefox'],
     runOptions: {
         skipJsErrors: true,
         selectorTimeout:  5000,

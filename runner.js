@@ -4,7 +4,8 @@
         hostname,
         port1,
         port2,
-        runOptions
+        runOptions,
+        browsers
     } = require('./tests-config');
 
     const testcafe = await createTestCafe(hostname, port1, port2);
@@ -14,7 +15,7 @@
 
         const failedCount = await runner
             .src(['tests/fixture1.js'])
-            .browsers(['chrome'])
+            .browsers(browsers)
             .run(runOptions);
 
         console.log('Tests failed: ' + failedCount);

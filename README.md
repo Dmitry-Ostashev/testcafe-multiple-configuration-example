@@ -9,5 +9,5 @@ node runner.js --env=dev
 
 Production config:
 ```sh
-node runner.js --env=dev
+node runner.js --env=prod
 ```
